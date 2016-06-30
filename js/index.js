@@ -7,9 +7,11 @@ var Teams = ["Seahawks", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 
 function pickTeam(){
 	var teamNumber = Math.floor(Math.random()*Teams.length);
-	var teamNumber2 = Math.floor(Math.random()
-	var team1Score = 0;
-	var team2Score = 0;
+	var teamNumber2 = Math.floor(Math.random()*Teams.length);
+	var team1Score = Math.floor(Math.random()*70);
+	var team2Score = Math.floor(Math.random()*70);
 
-	document. getElementById('Football Teams') 
+	document.getElementById('FootballTeams').innerHTML = 
+	Teams[teamNumber] + ": " + team1Score + " vs. " +
+	Teams[teamNumber2] + ": " + team2Score;
 }
