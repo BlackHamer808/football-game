@@ -14,4 +14,12 @@ function pickTeam(){
 	document.getElementById('FootballTeams').innerHTML = 
 	Teams[teamNumber] + ": " + team1Score + " vs. " +
 	Teams[teamNumber2] + ": " + team2Score;
-}
+
+	if (team1Score > team2Score) {
+		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
+	};
+	if (team2Score > team1Score) {
+		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";
+     }
+
+ }
