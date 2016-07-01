@@ -3,7 +3,8 @@ var Teams = ["Seahawks", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 "Chicago Bears", "GB Packers", "Detroit Lions", "Pitt Steelers", "Houston Texans",
 "SF 49ers", "Jacksonville Jaguars", "Wasinghton Redskins", "Carolina Panthers",
 "Minn Vikings", "Baltimore Ravens", "NYJ", "Cinn Bengals", "Miami Dolphins", "Buff Bills",
-"Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans"]
+"Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tennesse Titans",
+"Denver Broncos"]
 
 function pickTeam(){
 	var teamNumber = Math.floor(Math.random()*Teams.length);
