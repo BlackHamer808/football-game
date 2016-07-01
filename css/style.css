@@ -1,2 +1,18 @@
 body {
-    background-color: ;
+    background-color:blue; 
+    font-size: 30px;
+}
+
+#FootballTeams{
+	text-align: center;
+	height: 35px;
+	background-color: orange;
+	color: white;
+	font-family: sans-serif;
+}
+
+#winner{
+	font-size: 80px;
+	text-align:center;
+    font-family: sans-serif;
+}
