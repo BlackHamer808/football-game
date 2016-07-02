@@ -20,7 +20,14 @@ function pickTeam(){
 		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
 	};
 	if (team2Score > team1Score) {
-		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";
-     }
+		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";};
+    
+    if (team1Score = team2Score){
+    	document.getElementById('tie').innerHTML = Teams[teamNumber] + "tie";};
+     
+    if (team1Score = team2Score) {
+    	document.getElementById('tie').innerHTML = Teams[teamNumber2] + "tie";};
+    }; 	
+     
 
- }
+ 
