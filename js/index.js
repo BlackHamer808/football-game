@@ -6,13 +6,15 @@ var Teams = ["Seahawks", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 "Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tennesse Titans",
 "Denver Broncos"]
 
-function pickTeam(){
+
+
+	
+function getscores(){
 	var teamNumber = Math.floor(Math.random()*Teams.length);
 	var teamNumber2 = Math.floor(Math.random()*Teams.length);
 	var team1Score = Math.floor(Math.random()*70);
 	var team2Score = Math.floor(Math.random()*70);
-
-	document.getElementById('FootballTeams').innerHTML = 
+    	document.getElementById('FootballTeams').innerHTML = 
 	Teams[teamNumber] + ": " + team1Score + " vs. " +
 	Teams[teamNumber2] + ": " + team2Score;
 
@@ -21,13 +23,9 @@ function pickTeam(){
 	};
 	if (team2Score > team1Score) {
 		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";};
-    
-    if (team1Score = team2Score){
-    	document.getElementById('tie').innerHTML = Teams[teamNumber] + "tie";};
-     
-    if (team1Score = team2Score) {
-    	document.getElementById('tie').innerHTML = Teams[teamNumber2] + "tie";};
-    }; 	
+}
+
+
      
 
  
