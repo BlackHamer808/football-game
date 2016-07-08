@@ -10,7 +10,8 @@ var Teams = ["Seahawks", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 
 	
 function getscores(){
-	var teamNumber = Math.floor(Math.random()*Teams.length);
+	var teamNumber = Math.floor(Math.random(0
+	)*Teams.length);
 	var teamNumber2 = Math.floor(Math.random()*Teams.length);
 	var team1Score = Math.floor(Math.random()*70);
 	var team2Score = Math.floor(Math.random()*70);
@@ -24,6 +25,8 @@ function getscores(){
 	if (team2Score > team1Score) {
 		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";};
 }
+
+
 
 
      
