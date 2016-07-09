@@ -1,12 +1,12 @@
 body {
-    background-color:purple; 
+    background-color:blue; 
     font-size: 30px;
 }
 
 #FootballTeams{
 	text-align: center;
 	height: 35px;
-	background-color: orange;
+	background-color: red;
 	color: white;
 	font-family: sans-serif;
 }
