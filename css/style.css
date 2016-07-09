@@ -1,20 +1,31 @@
 body {
+<<<<<<< HEAD
     background-color:purple; 
     font-size: 30px;
+=======
+    background-color:blue; 
+    text-align: center;
+    font-size: 100px;
+                                Directions:
+Put a check in the box on who you think is going to win. If you think it is a tie then put 
+checks in both boxes.
+>>>>>>> FatGuy808/master
 }
 
 #FootballTeams{
 	text-align: center;
 	height: 35px;
-	background-color: orange;
+	background-color: red;
 	color: white;
 	font-family: sans-serif;
+	font-size: 35px;
 }
 
 #winner{
 	font-size: 80px;
 	text-align:center;
     font-family: sans-serif;
+<<<<<<< HEAD
 }
 
 #checkbox{
@@ -24,3 +35,21 @@ body {
     border-radius:5px;
     border:2px solid #555; 
     }
+=======
+    border-radius: 8px; 
+}
+
+#checkbox{
+	height: 143px; 
+	width: 608px;
+	border-radius: 50px;
+	border:2px solid #555;
+}
+
+#checkbox2{
+	height: 143px;
+	width: 1008px;
+	border-radius: 50px;
+	border:2px solid #555;
+}
+>>>>>>> FatGuy808/master
