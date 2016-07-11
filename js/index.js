@@ -3,12 +3,16 @@ var Teams = ["Seahawks  ", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 "Chicago Bears", "GB Packers", "Detroit Lions", "Pitt Steelers", "Houston Texans",
 "SF 49ers", "Jacksonville Jaguars", "Wasinghton Redskins", "Carolina Panthers",
 "Minn Vikings", "Baltimore Ravens", "NYJ", "Cinn Bengals", "Miami Dolphins", "Buff Bills",
+<<<<<<< Updated upstream
 
 "Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", 
 "Denver Broncos"]
 
 
 
+=======
+"Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", "Denver Broncos"]
+>>>>>>> Stashed changes
 
 var teamNumber;
 var teamNumber2;
@@ -70,7 +74,18 @@ function guessTwo (){
 		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";};
 
 
+<<<<<<< Updated upstream
+=======
+ }
+ function guessOne(){
+>>>>>>> Stashed changes
 
 
+ }
+ function guessTwo(){
 
+<<<<<<< Updated upstream
   
+=======
+ }
+>>>>>>> Stashed changes
