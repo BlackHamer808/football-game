@@ -12,7 +12,7 @@ var team2Score;
 var userRecord = [];
  var userchoice;
 var winingteam;
-function seeteams(){
+function seeteam(){
 	teamNumber = Math.floor(Math.random()*Teams.length);
 	teamNumber2 = Math.floor(Math.random()*Teams.length);
 	document.getElementById("FootballTeams").innerHTML =  
@@ -41,7 +41,8 @@ function guessTwo (){
 		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
 		if (teamNumber==userchoice){
 			userRecord.push("win")
-		} else {
+		}
+		 else {
 			userRecord.push("lose")
 		}
 	}
