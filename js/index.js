@@ -3,16 +3,7 @@ var Teams = ["Seahawks  ", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys",
 "Chicago Bears", "GB Packers", "Detroit Lions", "Pitt Steelers", "Houston Texans",
 "SF 49ers", "Jacksonville Jaguars", "Wasinghton Redskins", "Carolina Panthers",
 "Minn Vikings", "Baltimore Ravens", "NYJ", "Cinn Bengals", "Miami Dolphins", "Buff Bills",
-<<<<<<< Updated upstream
-
-"Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", 
-"Denver Broncos"]
-
-
-
-=======
 "Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", "Denver Broncos"]
->>>>>>> Stashed changes
 
 var teamNumber;
 var teamNumber2;
@@ -29,15 +20,8 @@ function seeteams(){
 }
 
 
-function seescore() {
-	team1Score = Math.floor(Math.random()*70);
-	team2Score = Math.floor(Math.random()*70);
 
-
-
-
-	
-function getscores(){
+function seescores(){
 	var teamNumber = Math.floor(Math.random(0
 	)*Teams.length);
 	var teamNumber2 = Math.floor(Math.random()*Teams.length);
@@ -47,7 +31,12 @@ function getscores(){
 	Teams[teamNumber] + ": " + team1Score + " vs. " +
 	Teams[teamNumber2] + ": " + team2Score;
 
-
+function guessOne (){
+	 userchoice = teamNumber  
+} 
+function guessTwo (){
+	userchoice = teamNumber2
+	
 	if (team1Score > team2Score) {
 		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
 		if (teamNumber==userchoice){
@@ -61,31 +50,7 @@ function getscores(){
 		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";
 	}
  	document.getElementById('FootballTeams').innerHTML =
- 	 Teams[teamNumber] + ": " + team1Score + " vs. " + Teams[teamNumber2] + ": " + team2Score;
- }
-
-function guessOne (){
-	 userchoice = teamNumber  
-} 
-function guessTwo (){
-	userchoice = teamNumber2
-}
-
-		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";};
+ 	 Teams[teamNumber] + ": " + team1Score + " vs. " + Teams[teamNumber2] + ": " + team2Score;}
 
 
-<<<<<<< Updated upstream
-=======
- }
- function guessOne(){
->>>>>>> Stashed changes
-
-
- }
- function guessTwo(){
-
-<<<<<<< Updated upstream
-  
-=======
- }
->>>>>>> Stashed changes
+ 	}
