@@ -54,4 +54,4 @@ function guessTwo (){
  	 Teams[teamNumber] + ": " + team1Score + " vs. " + Teams[teamNumber2] + ": " + team2Score;}
 
 
- 	}
+}
