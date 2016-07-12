@@ -11,7 +11,8 @@ var teamNumber;
 var teamNumber2;
 var team1Score;
 var team2Score;
-var userRecord = [];
+var userwins = 0;
+var userloses = 0;
 var userchoice;
 var winingteam;
 
@@ -32,10 +33,15 @@ function seescore(){
 	if (team1Score > team2Score) {
 		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
 		if (teamNumber==userchoice){
-			userRecord.push("win")
+			document.getElementById("You guessed right.");
+			userwins++;
+			document.getElementById("You have won ")+userwins+" times.";
 		}
 		 else {
-			userRecord.push("lose")
+		 	document.getElementById("you guessed wrong.");
+			userloses++;
+			document.getElementById("You have lost ")+userloses+" times.";
+
 		}
 	}
 	if (team2Score > team1Score) {
