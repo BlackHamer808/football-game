@@ -1,6 +1,6 @@
 body {
     font-size: 30px;
-    color: blue;  
+    color: yellow;  
 }
 
 #FootballTeams{
@@ -17,7 +17,7 @@ body {
     font-family: sans-serif;
 }
 #nfl-10.jpg{
-background-image: nfl-10.jpg
+background-image: imgres.jpg;
 
 }
 
