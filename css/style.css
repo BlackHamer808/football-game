@@ -1,6 +1,6 @@
 body {
-    background-color:blue; 
     font-size: 30px;
+    color: blue;  
 }
 
 #FootballTeams{
@@ -16,5 +16,8 @@ body {
 	text-align:center;
     font-family: sans-serif;
 }
+#nfl-10.jpg{
+background-image: nfl-10.jpg
 
+}
 
