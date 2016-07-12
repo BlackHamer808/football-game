@@ -25,8 +25,6 @@ function seeteam(){
 
 
 function seescore(){
-	var teamNumber = Math.floor(Math.random(0)*Teams.length);
-	var teamNumber2 = Math.floor(Math.random()*Teams.length);
 	var team1Score = Math.floor(Math.random()*70);
 	var team2Score = Math.floor(Math.random()*70);
     document.getElementById('FootballTeams').innerHTML = Teams[teamNumber] + ": " + team1Score + " vs. " +Teams[teamNumber2] + ": " + team2Score;
