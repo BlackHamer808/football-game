@@ -21,7 +21,7 @@ function seeteam(){
 
 
 
-function seescores(){
+function seescore(){
 	var teamNumber = Math.floor(Math.random(0
 	)*Teams.length);
 	var teamNumber2 = Math.floor(Math.random()*Teams.length);
@@ -30,11 +30,12 @@ function seescores(){
     	document.getElementById('FootballTeams').innerHTML = 
 	Teams[teamNumber] + ": " + team1Score + " vs. " +
 	Teams[teamNumber2] + ": " + team2Score;
+}
 
-function guessOne (){
+function guessOne(){
 	 userchoice = teamNumber  
 } 
-function guessTwo (){
+function guessTwo(){
 	userchoice = teamNumber2
 	
 	if (team1Score > team2Score) {
@@ -51,7 +52,7 @@ function guessTwo (){
 		document.getElementById('winner').innerHTML = Teams[teamNumber2] + " wins";
 	}
  	document.getElementById('FootballTeams').innerHTML =
- 	 Teams[teamNumber] + ": " + team1Score + " vs. " + Teams[teamNumber2] + ": " + team2Score;}
+ 	 Teams[teamNumber] + ": " + team1Score + " vs. " + Teams[teamNumber2] + ": " + team2Score;
 
 
 }
