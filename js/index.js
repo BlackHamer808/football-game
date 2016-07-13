@@ -33,7 +33,7 @@ function seescore(){
 	if (team1Score > team2Score) {
 		document.getElementById('winner').innerHTML = Teams[teamNumber] + " wins";
 		if (teamNumber==userchoice){
-			document.getElementById("You guessed right.");
+			document.getElementById("You guessed right.") ;
 			userwins++;
 			document.getElementById("You have won ")+userwins+" times.";
 		}
