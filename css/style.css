@@ -1,12 +1,12 @@
 body {
     font-size: 30px;
-    color: yellow;  
+    color: darkorange;  
 }
 
 #FootballTeams{
 	text-align: center;
 	height: 35px;
-	background-color: red;
+	background-color: transparent;
 	color: white;
 	font-family: sans-serif;
 }
@@ -16,7 +16,6 @@ body {
 	text-align:center;
     font-family: sans-serif;
 }
-#obj.gif{
-background-image:obj.gif;
-}
+
+
 
