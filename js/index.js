@@ -20,7 +20,7 @@ function seeteam(){
 	teamNumber = Math.floor(Math.random()*Teams.length);
 	teamNumber2 = Math.floor(Math.random()*Teams.length);
 	document.getElementById("FootballTeams").innerHTML =  
-	Teams[teamNumber]+" vs. "+Teams[teamNumber2];
+	Images[teamNumber]+Teams[teamNumber]+" vs. "+Images[teamNumber2]+Teams[teamNumber2];
 }
 
 
