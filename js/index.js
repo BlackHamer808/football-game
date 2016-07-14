@@ -7,6 +7,7 @@ var Teams = [
 "Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", "Denver Broncos"
 ];
 
+
 var teamNumber;
 var teamNumber2;
 var team1Score;
