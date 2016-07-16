@@ -1,10 +1,36 @@
 var Teams = [
-"Seahawks", "Patriots", "NY Giants", "LA Rams", "Dallas Cowboys", 
-"Philly Eagles", "Cleavland Brown", "Colts", "SD Chargers", "Oakland Raiders",
-"Chicago Bears", "GB Packers", "Detroit Lions", "Pitt Steelers", "Houston Texans",
-"SF 49ers", "Jacksonville Jaguars", "Wasinghton Redskins", "Carolina Panthers",
-"Minn Vikings", "Baltimore Ravens", "NYJ", "Cinn Bengals", "Miami Dolphins", "Buff Bills",
-"Ari Cardinals", "Tampa Bucs", "Atlanta Falcons", "KC Chiefs", "NO Saints", "Tenn Titans", "Denver Broncos"
+"<img src=../assets/SEahwks.jpg> Seahawks", 
+"<img src=../assets/Pats.jpeg> Patriots", 
+"<img src=../assets/Giants.jpeg> NY Giants",
+"<img src=../assets/Rams.jpg> LA Rams", 
+"<img src=../assets/Cowboys.jpg> Dallas Cowboys", 
+"<img src=../assets/Eagles.jpeg> Philly Eagles", 
+"<img src=../assets/Browns.jpeg> Cleavland Brown", 
+"<img src=../assets/Colts.jpg Colts", 
+"<img src=../assets/SD Chargers", 
+"<img src=../assets/Oakland Raiders",
+"<img src=../assets/Chicago Bears", 
+"<img src=../assets/GB Packers", 
+"<img src=../assets/Detroit Lions", 
+"<img src=../assets/Pitt Steelers", 
+"<img src=../assets/Houston Texans",
+"<img src=../assets/SF 49ers", 
+"<img src=../assets/<img src=../assets/<img src=../assets/Jacksonville Jaguars", 
+"<img src=../assets/<img src=../assets/Wasinghton Redskins", 
+"<img src=../assets/Carolina Panthers",
+"Minn Vikings", 
+"Baltimore Ravens", 
+"NYJ", 
+"Cinn Bengals", 
+"Miami Dolphins", 
+"Buff Bills",
+"Ari Cardinals", 
+"Tampa Bucs", 
+"Atlanta Falcons", 
+"KC Chiefs", 
+"NO Saints", 
+"Tenn Titans", 
+"Denver Broncos"
 ];
 
 
@@ -21,7 +47,7 @@ function seeteam(){
 	teamNumber = Math.floor(Math.random()*Teams.length);
 	teamNumber2 = Math.floor(Math.random()*Teams.length);
 	document.getElementById("FootballTeams").innerHTML =  
-	Images[teamNumber]+Teams[teamNumber]+" vs. "+Images[teamNumber2]+Teams[teamNumber2];
+	Teams[teamNumber]+ "vs." +Teams[teamNumber2];
 }
 
 
